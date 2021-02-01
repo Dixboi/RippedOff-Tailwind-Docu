@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css-tailwind.css">
+</head>
+<body>
+    <div class="container flex">
+        <nav class="overflow-y-auto overflow-x-hidden h-screen sticky top-0">
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <ul>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Documentation</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Components</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Playground</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">News</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Resources</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Screencasts</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Getting Started</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Installation</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Relase Notes</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Upgrade Guide</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Using with Preprocessors</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Optimizing for Production</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Browser Support</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">IntelliSense</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Core Concepts</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Utility First</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Responsive Design</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Hover, Focus, & Other States</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Dark Mode</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Extracting Components</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Adding New Utilities</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Functions and Directives</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Customization</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Configuration</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Theme</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Breakpoints</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Colors</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Spacing</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Variants</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Plugins</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Presets</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Base Styles</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Prefight</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Layout</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Container</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Box Sizing</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Display</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Floats</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Clear</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Object Fit</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Object Position</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Overflow</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Overscroll Behavior</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Position</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Top/Right/Bottom/Left</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Visibility</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Z-index</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Flexbox</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Flex Direction</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Flex Wrap</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Flex</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Flex Grow</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Flex Shrink</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Order</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Grid</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Template Columns</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Column Start/End</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Template Rows</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Row Start/End</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Auto Flow</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Auto Columns</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Grid Auto Rows</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Gap</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Box Alignment</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Justify Content</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Justify Items</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Justify Self</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Align Content</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Align Items</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Align Self</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Place Content</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Place Items</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Place Self</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Spacing</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Padding</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Margin</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Space Between</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Sizing</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Min-Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Max-Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Height</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Min-Height</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Max-Height</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Typography</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Font Family</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Font Size</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Font Smoothing</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Font Style</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Font Weight</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Font Variant Numeric</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Letter Spacing</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Ling Height</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">List Style Type</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">List Style Position</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Placeholder Color</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Placeholder Opacity</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Text Align</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Text Color</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Text Opacity</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Text Decoration</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Text Transform</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Text Overflow</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Vertical Align</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Whitespace</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Word Break</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Backgrounds</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Attachment</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Clip</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Color</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Opacity</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Position</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Repeat</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Size</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Background Image</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Gradient Color Stops</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Borders</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Border Radius</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Border Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Border Color</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Border Opacity</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Border Style</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Divide Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Divide Color</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Divide Opacity</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Divide Style</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Ring Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Ring Color</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Ring Opacity</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Ring Offset Width</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Ring Offset Color</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Effects</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Box Shadow</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Opacity</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Tables</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Border Collapse</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Table Layout</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Transitions and Animations</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Transition Property</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Transition Duration</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Transition Timing Function</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Transition Delay</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Animation</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Transforms</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Transform</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Transform Origin</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Scale</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Rotate</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Translate</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Skew</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Interactivity</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Appearance</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Cursor</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Outline</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Pointer Events</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Resize</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">User Select</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">SVG</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Fill</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Stroke</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Stroke Width</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Accesibility</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Screen Readers</li>
+                </ul>
+            </div>
+            <div class="flex flex-col mx-8 p-2 font-semibold text-gray-500">
+                <span class="uppercase font-bold text-xs m-1 py-1 text-gray-700 tracking-wider">Official Plugins</span>
+                <ul class="font-semibold text-gray-500 text-sm">
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Typography</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Forms</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Aspect Ratio</li>
+                    <li class="m-1 py-1 cursor-pointer hover:text-gray-700 tracking-wide">Line Clamp</li>
+                </ul>
+            </div>
+        </nav>
+        <main class="flex flex-col">
+            <div class="container flex flex-col py-4 px-8">
+                <div>
+                    <h1 class="text-5xl font-extrabold py-2">Getting started with Tailwind CSS</h1>
+                    <h2 class="text-2xl py-2 text-gray-500">Learn Tailwind the way that best matches your learning style.</h2>
+                </div>
+                <div class="grid grid-cols-3 my-8">
+                    <div class="flex flex-col bg-gradient-to-br from-purple-500 to-purple-400 p-6 mr-3 rounded-2xl items-start text-white">
+                        <span class="text-xl font-bold tracking-tight my-4">Read the docs</span>
+                        <span class="font-semibold mb-10">Learn how to get Tailwind set up in your project.</span>
+                        <button class="bg-purple-600 w-auto p-3 font-bold rounded-2xl hover:bg-purple-700">Start learning</button>
+                    </div>
+                    <div class="flex flex-col bg-gradient-to-br from-pink-500 to-pink-400 p-6 mr-3 rounded-2xl items-start text-white">
+                        <span class="text-xl font-bold tracking-tight my-4">Try it in the browser</span>
+                        <span class="font-semibold mb-10">Build something with Tailwind in our online playground.</span>
+                        <button class="bg-pink-600 w-auto p-3 font-bold rounded-2xl hover:bg-pink-700">Start building</button>
+                    </div>
+                    <div class="flex flex-col bg-gradient-to-br from-yellow-500 to-yellow-400 p-6 mr-3 rounded-2xl items-start text-white">
+                        <span class="text-xl font-bold tracking-tight my-4">Watch the screencasts</span>
+                        <span class="font-semibold mb-10">Learn more about Tailwind directly from the team on our channel.</span>
+                        <button class="bg-yellow-600 w-auto p-3 font-bold rounded-2xl hover:bg-yellow-700">Start watching</button>
+                    </div>
+                </div>
+                <div class="flex items-stretch bg-gray-800 rounded-2xl text-gray-100">
+                    <div class="flex items-center pl-8 select-none">
+                        <span class="text-2xl text-sans font-semibold mr-1">tailwind</span>
+                        <small class="border-2 rounded font-semibold p-1">UI</small>
+                    </div>
+                    <div class="flex items-center justify-evenly">
+                        <span class="font-semibold ml-10 text-xl p-4">Beautiful UI components, crafted by the creators of Tailwind CSS</span>
+                        <button class="bg-white text-gray-800 font-bold text-md hover:bg-gray-100 rounded-md m-8">Browse components</button>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 tracking-tight mt-16 mb-10">What's new in Tailwind</h2>
+                    <div class="grid grid-cols-4 gap-8 m-2">
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Focus Ring Utilities
+                        </div>
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Dark Mode
+                        </div>
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Extended Color Pallete
+                        </div>
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Extend Variants
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-4 gap-8 m-2">
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Extra Widing Breakpoint
+                        </div>
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Shareable Presets
+                        </div>
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Gradients
+                        </div>
+                        <div class="py-12 border rounded-2xl border-gray-200 text-gray-800 text-md tracking-tight cursor-pointer w-full font-bold flex items-center justify-center">
+                            Animations
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 tracking-tight mt-16 mb-10">Latest Updates</h2>
+                    <div class="grid grid-rows-4 rounded-2xl bg-gray-100 p-10">
+                        <div class="flex rounded-2xl hover:bg-white p-4 cursor-pointer">
+                            <div class="w-1/6 font-semibold text-gray-400 tracking-wide text-lg">Nov 19, 2020</div>
+                            <div class="w-5/6 text-lg">
+                                <p class="font-bold tracking-wider text-gray-900">Tailwind CSS v2.0</p>
+                                <p class="text-gray-400">Today we're finally releasing Tailwind CSS v2.0, including an all-new color palette, dark mode support, and tons more!</p>
+                            </div>
+                        </div>
+                        <div class="flex rounded-2xl hover:bg-white p-4 cursor-pointer">
+                            <div class="w-1/6 font-semibold text-gray-400 tracking-wide text-lg">Oct 14, 2020</div>
+                            <div class="w-5/6 text-lg">
+                                <p class="font-bold tracking-wider text-gray-900">Tailwind CSS v2.0</p>
+                                <p class="text-gray-400">We just released Tailwind CSS v1.9 which adds support for configuration presets, useful new CSS grid utilities, extended border radius, rotate, and skew scales, helpful accessibility improvements, and more!</p>
+                            </div>
+                        </div>
+                        <div class="flex rounded-2xl hover:bg-white p-4 cursor-pointer">
+                            <div class="w-1/6 font-semibold text-gray-400 tracking-wide text-lg">Oct 7, 2020</div>
+                            <div class="w-5/6 text-lg">
+                                <p class="font-bold tracking-wider text-gray-900">Tailwind CSS v2.0</p>
+                                <p class="text-gray-400">Today we're excited to release the first version of Tailwind Play, an advanced online playground for Tailwind CSS that lets you use all of Tailwind's build-time features directly in the browser.</p>
+                            </div>
+                        </div>
+                        <div class="flex rounded-2xl hover:bg-white p-4 cursor-pointer">
+                            <div class="w-1/6 font-semibold text-gray-400 tracking-wide text-lg">Oct 7, 2020</div>
+                            <div class="w-5/6 text-lg">
+                                <p class="font-bold tracking-wider text-gray-900">Tailwind CSS v2.0</p>
+                                <p class="text-gray-400">Headless UI is a set of completely unstyled, fully accessible UI components for React, Vue, and Alpine.js that make it easy to build fully accessible custom UI components, without sacrificing the ability to style them from scratch with simple utility classes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
