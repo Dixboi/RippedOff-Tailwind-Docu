@@ -1,1 +1,1 @@
-# RippedOff-Tailwind-Docu
+# A Ripped Off Version of Tailwind CSS Documentation
